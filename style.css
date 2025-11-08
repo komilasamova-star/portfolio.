@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    padding: 0 100px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #222;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #1B1B1B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9C9C9C;
+    padding: 30px 100px;
+    border-radius: 10px;
+}
+
+header ul:first-child{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 100px
+}
+
+header ul:last-child{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.left{
+    padding: 100px;
+}
+.left h1{
+    color: white;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+.left p{
+    color: #9C9C9C;
+    font-size: 14px;
+    width: 492px;
+    margin-bottom: 60px;
+}
+.left a{
+    background-color: #3F8E00;
+    padding: 15px 70px;
+    color: white;
+    text-decoration: none;
+}
+.right {
+    width: 50%;
+    text-align: center;
+}
+.right img{
+    width: 60%;
+    border-radius: 50%;
+}
+.case-studies {
+  padding: 60px 10%;
+  text-align: center;
+  background-color: white;
+}
+
+.case-studies h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  color: #777;
+  max-width: 600px;
+  margin: 0 auto 50px;
+}
+
+.case {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  gap: 40px;
+}
+
+.case.reverse {
+  flex-direction: row-reverse;
+}
+
+.case-text {
+  flex: 1;
+  text-align: left;
+}
+
+.case-text h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.case-text p {
+  color: #666;
+}
+
+.case img {
+  flex: 1;
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.fintech { background: #fdbd4e; }
+.edtech { background: #3b82f6; }
+.pharma { background: #10b981; }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.orange { background: #fdbd4e; }
+.blue { background: #3b82f6; }
+.green { background: #10b981; }
+
+/* --- Contact Section --- */
+.contact {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+button {
+  background: linear-gradient(90deg, #10b981, #4ade80);
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* --- Footer --- */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.heart {
+  color: red;
+}
